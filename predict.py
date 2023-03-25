@@ -122,7 +122,7 @@ def premodel3():
 def show_predict_page():
     st.title("Analytics on Indian Agriculture with Economy")
 
-    st.write("""### Developed By Janojit Chakraborty""")
+    st.write("""### Developed By Benny Godwin J Davidson""")
 
     models = (
         "Predict Total Crop Production District Wise",
