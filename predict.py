@@ -120,7 +120,7 @@ def premodel3():
 
 
 def show_predict_page():
-    st.title("Analytics on Indian Agriculture with Economy")
+    st.title("Analytics in Agricultural Economics")
 
     st.write("""### Developed By Benny Godwin J Davidson""")
 
