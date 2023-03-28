@@ -4,16 +4,16 @@ import numpy as np
 import pickle
 import numpy as np
 
-label_encoder_year = pickle.load(open("label_encoder_year.pickle", "rb"))
-label_encoder_state = pickle.load(open("label_encoder_state.pickle", "rb"))
-label_encoder_dis = pickle.load(open("label_encoder_dis.pickle", "rb"))
+label_encoder_year = pickle.load(open("./encoders/label_encoder_year.pickle", "rb"))
+label_encoder_state = pickle.load(open("./encoders/label_encoder_state.pickle", "rb"))
+label_encoder_dis = pickle.load(open("./encoders/label_encoder_dis.pickle", "rb"))
 
-label_encoder_year1 = pickle.load(open("label_encoder_year1.pickle", "rb"))
-label_encoder_state1 = pickle.load(open("label_encoder_state1.pickle", "rb"))
+label_encoder_year1 = pickle.load(open("./encoders/label_encoder_year1.pickle", "rb"))
+label_encoder_state1 = pickle.load(open("./encoders/label_encoder_state1.pickle", "rb"))
 
-model1 = pickle.load(open("model1.pickle", "rb"))
-model2 = pickle.load(open("model2.pickle", "rb"))
-model3 = pickle.load(open("model3.pickle", "rb"))
+model1 = pickle.load(open("./models/model1.pickle", "rb"))
+model2 = pickle.load(open("./models/model2.pickle", "rb"))
+model3 = pickle.load(open("./models/model3.pickle", "rb"))
 
 def predmodel1():
     districts = ('Chittoor', 'East Godavari', 'Guntur', 'Krishna', 'Kurnool',

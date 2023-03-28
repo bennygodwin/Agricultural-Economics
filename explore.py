@@ -267,7 +267,7 @@ def q10():
 
 
 
-@st.cache
+@st.cache_data
 def load_data1():
     df = pd.read_csv("dataset.csv")
 
@@ -275,7 +275,7 @@ def load_data1():
 
 df = load_data1()
 
-@st.cache
+@st.cache_data
 def load_data2():
     df1 = pd.read_csv("dataset1.csv")
     
@@ -284,9 +284,9 @@ def load_data2():
 df1 = load_data2()
 
 def show_explore_page():
-    st.title("Data Visualization")
+    st.title("Analytics in Agricultural Economics")
 
-    st.write("""### Developed By Janojit Chakraborty""")
+    st.write("""### Developed By Benny Godwin J Davidson""")
 
     questions = (
         "Analyse Total Production With States",
